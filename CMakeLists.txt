@@ -4,6 +4,7 @@ set(PACKAGE_NAME morse)
 set(PACKAGE_VERSION "1.4")
 
 project(${PACKAGE_NAME})
+set(PYTHON_EXECUTABLE /usr/bin/python3)
 
 # only available from cmake-2.8.4
 if(COMMAND cmake_policy)
